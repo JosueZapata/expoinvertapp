@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "my-app",
+    "owner": "zapata13",
+    "slug": "my-app",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "https://apiasp.graduandot.com/assets/icon.png",
+    "splash": {
+      "image": "https://apiasp.graduandot.com/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "https",
+              "host": "josuezapata.github.io/expoinvertapp/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "package": "com.inverta.intertapp",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "https://apiasp.graduandot.com/assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "https://apiasp.graduandot.com/assets/icon.png"
+    }
+  }
+}
